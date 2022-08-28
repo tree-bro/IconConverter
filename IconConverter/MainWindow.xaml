@@ -1,0 +1,21 @@
+﻿<Window x:Class="IconConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:IconConverter"
+        mc:Ignorable="d"
+        Title="IconConverter" Height="250" Width="525">
+    <Grid>
+        <GroupBox x:Name="groupBox" Header="Drag and Drop JPG/PNG file Here" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="10,10,0,0" Height="121" Width="498" AllowDrop="True" Drop="groupBox_Drop">
+            <Label x:Name="label" Content="No Input" HorizontalAlignment="Left" Margin="10,0,0,0" VerticalAlignment="Center" Width="478" HorizontalContentAlignment="Center" Drop="label_Drop" Height="98"></Label>
+        </GroupBox>
+        <Button x:Name="button" Content="Convert!" HorizontalAlignment="Left" Margin="28,156,0,0" VerticalAlignment="Top" Width="214" Height="33" Click="button_Click"></Button>
+        <ComboBox x:Name="comboBox" HorizontalAlignment="Left" Margin="330,159,0,0" VerticalAlignment="Top" Width="144" SelectedIndex="0" Height="27">
+            <ListBoxItem Content="16px"></ListBoxItem>
+            <ListBoxItem Content="32px"></ListBoxItem>
+            <ListBoxItem Content="64px"></ListBoxItem>
+            <ListBoxItem Content="128px"></ListBoxItem>
+        </ComboBox>
+    </Grid>
+</Window>

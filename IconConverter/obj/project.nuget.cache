@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "Ee889WuBSu41qeK3AB5PtJZ+0PpuWHTrx3aVMCUNLeOywXn2wguIfbEGK+EcN/4f0iotKcnc3YjPGmk/+g5+/w==",
+  "success": true,
+  "projectFilePath": "E:\\Source\\dotnet\\IconConverter\\IconConverter\\IconConverter.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\being.TREEBROHP\\.nuget\\packages\\microsoft.win32.systemevents\\6.0.0\\microsoft.win32.systemevents.6.0.0.nupkg.sha512",
+    "C:\\Users\\being.TREEBROHP\\.nuget\\packages\\system.drawing.common\\6.0.0\\system.drawing.common.6.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
